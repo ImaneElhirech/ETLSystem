@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<figures xmlns="http://www.example.org/figures" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/figures figures.xsd ">
+
+
+<figures>
+<rectangle largeur="100.0" longueur="80.0" name="rect">
+<point1 x="71" y="73"/><point2 x="71" y="73"/>
+<centre x="121" y="113"/>
+</rectangle>
+<cercle name="cer" rayon="50.0">
+<point1 x="269" y="106"/>
+<point2 x="269" y="106"/>
+<centre x="269" y="106"/>
+</cercle>
+<ligne name="l1">
+<point1 x="395" y="73"/>
+<point2 x="460" y="173"/>
+</ligne>
+<ligne name="l2">
+<point1 x="465" y="59"/>
+<point2 x="547" y="162"/>
+</ligne>
+<triangle name="tri">
+<point1 x="681" y="95"/>
+<point2 x="681" y="95"/>
+<point3 x="5" y="9"/>
+</triangle>
+<annotation composant="  composant1 l1  composant2 l2" relation="parallèles"/>
+</figures>
